@@ -12,9 +12,8 @@ function isValidId(req, res, next) {
 function validPost(post) {
     const hasTitle = typeof post.title == 'string' && post.title.trim() != '';
     const hasContent = typeof post.content == 'string' && post.content.trim() != '';
-    const hasUsername = typeof post.username == 'string' && post.username.trim() != '';
 
-    return hasTitle && hasContent && hasUsername;
+    return hasTitle && hasContent;
 }
 
 router.get('/', (req, res) => {
