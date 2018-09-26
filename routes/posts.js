@@ -40,15 +40,9 @@ router.get('/:id', isValidId, (req, res, next) => {
 })
 
 router.post('/', (req, res, next) => {
-    if(validPost(req.body)) {
         queries.create(req.body).then(postPost => {
             res.json({postPost})
         }) 
-    }
-    else {
-        next(new Error('Invalid Virus Family'));
-    }
-
 })
 
 router.put('/:id', isValidId, (req, res, next) => {
