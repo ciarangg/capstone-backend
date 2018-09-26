@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
         table.text('title');
         table.text('content');
         table.text('username');
+        table.timestamp("created_at").defaultTo(knex.fn.now());
     })
   
 };
