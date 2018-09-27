@@ -51,7 +51,7 @@ exports.seed = function(knex, Promise) {
           id: 7,
           title: "Why is my -80 so ICY?",
           content: "It's usually not like this HELP. It's such a a nuisance",
-          username: "FrodoBaggins,
+          username: "FrodoBaggins",
           image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4HsP8RYZ6xkXYwHOFmkLV1cRx-DjWnphDX_TOrJ4xGnMP9sLl'
         },
         {
