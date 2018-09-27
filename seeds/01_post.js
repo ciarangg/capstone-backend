@@ -44,7 +44,7 @@ exports.seed = function(knex, Promise) {
           id: 6,
           title: "How do I do a joins table in knex?",
           content: "I don't even know what a joins table is. What's going on?",
-          username: "ScienceIsCool,
+          username: "ScienceIsCool",
           image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4HsP8RYZ6xkXYwHOFmkLV1cRx-DjWnphDX_TOrJ4xGnMP9sLl'
         },
         {
